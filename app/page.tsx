@@ -3,10 +3,24 @@
  * @see https://v0.dev/t/g5BuhxOLNKC
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem } from "@/components/ui/dropdown-menu"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuItem,
+} from "@/components/ui/dropdown-menu";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
 
 export default function Component() {
   return (
@@ -110,7 +124,9 @@ export default function Component() {
               <Card className="bg-white border-[#ff8c00] text-black">
                 <CardHeader>
                   <CardTitle>Upcoming Events</CardTitle>
-                  <CardDescription>Check out the latest events happening on campus.</CardDescription>
+                  <CardDescription>
+                    Check out the latest events happening on campus.
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4">
@@ -144,7 +160,11 @@ export default function Component() {
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#" className="text-sm text-[#ff8c00]" prefetch={false}>
+                  <Link
+                    href="#"
+                    className="text-sm text-[#ff8c00]"
+                    prefetch={false}
+                  >
                     View all events
                   </Link>
                 </CardFooter>
@@ -152,7 +172,9 @@ export default function Component() {
               <Card className="bg-white border-[#ff8c00] text-black">
                 <CardHeader>
                   <CardTitle>Student Achievements</CardTitle>
-                  <CardDescription>Celebrate the accomplishments of our students.</CardDescription>
+                  <CardDescription>
+                    Celebrate the accomplishments of our students.
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4">
@@ -161,7 +183,9 @@ export default function Component() {
                         <TrophyIcon className="h-5 w-5" />
                       </div>
                       <div>
-                        <div className="font-medium">National Science Fair Winner</div>
+                        <div className="font-medium">
+                          National Science Fair Winner
+                        </div>
                         <div className="text-sm text-[#aaa]">John Doe</div>
                       </div>
                     </div>
@@ -180,13 +204,19 @@ export default function Component() {
                       </div>
                       <div>
                         <div className="font-medium">Valedictorian</div>
-                        <div className="text-sm text-[#aaa]">Michael Johnson</div>
+                        <div className="text-sm text-[#aaa]">
+                          Michael Johnson
+                        </div>
                       </div>
                     </div>
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#" className="text-sm text-[#ff8c00]" prefetch={false}>
+                  <Link
+                    href="#"
+                    className="text-sm text-[#ff8c00]"
+                    prefetch={false}
+                  >
                     View all achievements
                   </Link>
                 </CardFooter>
@@ -194,7 +224,9 @@ export default function Component() {
               <Card className="bg-white border-[#ff8c00] text-black">
                 <CardHeader>
                   <CardTitle>Campus News</CardTitle>
-                  <CardDescription>Stay up to date with the latest news and announcements.</CardDescription>
+                  <CardDescription>
+                    Stay up to date with the latest news and announcements.
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4">
@@ -213,7 +245,9 @@ export default function Component() {
                       </div>
                       <div>
                         <div className="font-medium">Campus Power Outage</div>
-                        <div className="text-sm text-[#aaa]">April 15, 2023</div>
+                        <div className="text-sm text-[#aaa]">
+                          April 15, 2023
+                        </div>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -228,7 +262,11 @@ export default function Component() {
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#" className="text-sm text-[#ff8c00]" prefetch={false}>
+                  <Link
+                    href="#"
+                    className="text-sm text-[#ff8c00]"
+                    prefetch={false}
+                  >
                     View all news
                   </Link>
                 </CardFooter>
@@ -236,7 +274,9 @@ export default function Component() {
               <Card className="bg-white border-[#ff8c00] text-black">
                 <CardHeader>
                   <CardTitle>Quick Links</CardTitle>
-                  <CardDescription>Access important resources and information.</CardDescription>
+                  <CardDescription>
+                    Access important resources and information.
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4">
@@ -272,7 +312,9 @@ export default function Component() {
               <Card className="bg-white border-[#ff8c00] text-black">
                 <CardHeader>
                   <CardTitle>Student Profile</CardTitle>
-                  <CardDescription>View and manage your personal information.</CardDescription>
+                  <CardDescription>
+                    View and manage your personal information.
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4">
@@ -282,7 +324,9 @@ export default function Component() {
                       </div>
                       <div>
                         <div className="font-medium">John Doe</div>
-                        <div className="text-sm text-[#aaa]">Student ID: 12345</div>
+                        <div className="text-sm text-[#aaa]">
+                          Student ID: 12345
+                        </div>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -290,7 +334,9 @@ export default function Component() {
                         <MailIcon className="h-5 w-5" />
                       </div>
                       <div>
-                        <div className="font-medium">johndoe@university.edu</div>
+                        <div className="font-medium">
+                          johndoe@university.edu
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -301,7 +347,7 @@ export default function Component() {
         </div>
       </main>
     </div>
-  )
+  );
 }
 
 function AwardIcon(props) {
@@ -321,9 +367,8 @@ function AwardIcon(props) {
       <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
       <circle cx="12" cy="8" r="6" />
     </svg>
-  )
+  );
 }
-
 
 function BookOpenIcon(props) {
   return (
@@ -342,9 +387,8 @@ function BookOpenIcon(props) {
       <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
       <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
     </svg>
-  )
+  );
 }
-
 
 function CalendarIcon(props) {
   return (
@@ -365,9 +409,8 @@ function CalendarIcon(props) {
       <rect width="18" height="18" x="3" y="4" rx="2" />
       <path d="M3 10h18" />
     </svg>
-  )
+  );
 }
-
 
 function ClipboardIcon(props) {
   return (
@@ -386,9 +429,8 @@ function ClipboardIcon(props) {
       <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
       <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
     </svg>
-  )
+  );
 }
-
 
 function GiftIcon(props) {
   return (
@@ -409,9 +451,8 @@ function GiftIcon(props) {
       <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7" />
       <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5" />
     </svg>
-  )
+  );
 }
-
 
 function GraduationCapIcon(props) {
   return (
@@ -431,9 +472,8 @@ function GraduationCapIcon(props) {
       <path d="M22 10v6" />
       <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
     </svg>
-  )
+  );
 }
-
 
 function LogOutIcon(props) {
   return (
@@ -453,9 +493,8 @@ function LogOutIcon(props) {
       <polyline points="16 17 21 12 16 7" />
       <line x1="21" x2="9" y1="12" y2="12" />
     </svg>
-  )
+  );
 }
-
 
 function MailIcon(props) {
   return (
@@ -474,9 +513,8 @@ function MailIcon(props) {
       <rect width="20" height="16" x="2" y="4" rx="2" />
       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
     </svg>
-  )
+  );
 }
-
 
 function MedalIcon(props) {
   return (
@@ -499,9 +537,8 @@ function MedalIcon(props) {
       <circle cx="12" cy="17" r="5" />
       <path d="M12 18v-2h-.5" />
     </svg>
-  )
+  );
 }
-
 
 function MegaphoneIcon(props) {
   return (
@@ -520,9 +557,8 @@ function MegaphoneIcon(props) {
       <path d="m3 11 18-5v12L3 14v-3z" />
       <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
     </svg>
-  )
+  );
 }
-
 
 function MenuIcon(props) {
   return (
@@ -542,9 +578,8 @@ function MenuIcon(props) {
       <line x1="4" x2="20" y1="6" y2="6" />
       <line x1="4" x2="20" y1="18" y2="18" />
     </svg>
-  )
+  );
 }
-
 
 function Package2Icon(props) {
   return (
@@ -564,9 +599,8 @@ function Package2Icon(props) {
       <path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9" />
       <path d="M12 3v6" />
     </svg>
-  )
+  );
 }
-
 
 function SearchIcon(props) {
   return (
@@ -585,9 +619,8 @@ function SearchIcon(props) {
       <circle cx="11" cy="11" r="8" />
       <path d="m21 21-4.3-4.3" />
     </svg>
-  )
+  );
 }
-
 
 function TicketIcon(props) {
   return (
@@ -608,9 +641,8 @@ function TicketIcon(props) {
       <path d="M13 17v2" />
       <path d="M13 11v2" />
     </svg>
-  )
+  );
 }
-
 
 function TrophyIcon(props) {
   return (
@@ -633,9 +665,8 @@ function TrophyIcon(props) {
       <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
       <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
     </svg>
-  )
+  );
 }
-
 
 function UserIcon(props) {
   return (
@@ -654,9 +685,8 @@ function UserIcon(props) {
       <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
       <circle cx="12" cy="7" r="4" />
     </svg>
-  )
+  );
 }
-
 
 function XIcon(props) {
   return (
@@ -675,9 +705,8 @@ function XIcon(props) {
       <path d="M18 6 6 18" />
       <path d="m6 6 12 12" />
     </svg>
-  )
+  );
 }
-
 
 function ZapIcon(props) {
   return (
@@ -695,5 +724,5 @@ function ZapIcon(props) {
     >
       <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
     </svg>
-  )
+  );
 }
